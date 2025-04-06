@@ -10,7 +10,7 @@ venv/
 env/
 ENV/
 .Python
-credentials.json
+backend/credentials.json
 
 # Node.js
 node_modules/
