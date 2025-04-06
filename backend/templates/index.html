@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Check In</title>
+<style type="text/css">
+body {
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.container {
+	padding: 10vh;
+	background-color: #dcdcdc;
+	border-radius: 10px;
+	font-family: monospace;
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<h1>Log: </h1>
+	<form action="/log" method="POST">
+        <label for="username">Email:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>

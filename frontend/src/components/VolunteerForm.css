@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    background-color: #242424;
+    flex-direction: column;
+}
+
+.volunteer-form {
+    background-color: #212121;
+    height: 50vh;
+}
+  
+.volunteers-list {
+    background-color: #212121;
+}
+  
+.active-volunteers {
+    height: 50vh;
+    background-color: #212121;
+}
+
+.volunteer-card {
+    background-color: #212121;
+}
+
+.volunteer-hours {
+    background-color: #212121;
+    width: 90vw;
+}
+
+.stat-card {
+    background-color: #212121;
+}
+
+.volunteers-table {
+    background-color: #212121;
+}
+.volunteers-table th {
+    background-color: #212121;
+}
+.volunteers-table td {
+    background-color: #212121;
+}
+

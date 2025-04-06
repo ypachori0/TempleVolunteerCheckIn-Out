@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Check In</title>
+<style type="text/css">
+body {
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.container {
+	padding: 10vh;
+	background-color: #dcdcdc;
+	border-radius: 10px;
+	font-family: monospace;
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<h1>Email: {{ email }}</h1>
+	<h1>Time Checked In: {{ time }}</h1>
+	<a href="http://127.0.0.1:5000/"><button>Done</button></a>
+</div>
+</body>
+</html>
